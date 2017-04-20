@@ -79,7 +79,7 @@ int main(){
 	cout<<"\nEnter the size: ";
 	cin>>len;
 	QueueArray S(len);
-	cout<<"\nEnter words: ";
+	cout<<"\nEnter word and enter - for popping: ";
 	string word;
 	cin>>word;
 	while(word != "-1"){
